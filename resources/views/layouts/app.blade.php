@@ -31,6 +31,83 @@
             tr:nth-child(even) {
                 background-color: #dddddd;
             }
+            .message{
+                background: lightblue;
+                width: 100%;
+            }
+
+            .alert {
+              padding: 20px;
+              background-color: #4CAF50;
+              color: white;
+          }
+
+          .closebtn {
+              margin-left: 15px;
+              color: white;
+              font-weight: bold;
+              float: right;
+              font-size: 22px;
+              line-height: 20px;
+              cursor: pointer;
+              transition: 0.3s;
+          }
+
+          .closebtn:hover {
+              color: black;
+          }
+
+          .option{
+            font-size: 40px;
+            color:blue;
+          }
+
+          .field{
+            font-size:20px;
+          }
+
+        input[type=text],[type=email]{
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type=submit] {
+          background-color: black;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+         .editlink{
+                background-color: #f44336;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 4px;
+            }
+          .deletelink{
+                background-color: black;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 4px;
+            }  
         </style>
     </head>
     <body class="font-sans antialiased">

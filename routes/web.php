@@ -32,10 +32,10 @@ Route::get('/contacts',function(Request $request){
 Route::post('/create',[FarziController::class,'create'])
 	->middleware(['auth'])->name('create');
 
-Route::post('/edit',[FarziController::class,'edit'])
+Route::get('/edit/{id}',[FarziController::class,'edit'])
 	->middleware(['auth'])->name('edit');
 
-Route::post('/delete',[FarziController::class,'delete'])
+Route::get('/delete/{id}',[FarziController::class,'delete'])
 	->middleware(['auth'])->name('delete');
 
 Route::post('/update',[FarziController::class,'update'])
